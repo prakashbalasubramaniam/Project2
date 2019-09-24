@@ -21,10 +21,14 @@ def olympic_crud():
     # rename Latitude (generated) and Longitude (generated) to Lat and Lng respectively
     athlete_noc_latlng_pd = athlete_noc_latlng_pd.rename(columns={'Latitude (generated)': 'Lat'})
     athlete_noc_latlng_pd = athlete_noc_latlng_pd.rename(columns={'Longitude (generated)': 'Lng'})
+    # remove rows with Medal = 0 to fix pymongo upload limit of 16MB
+    athlete_noc_latlng_pd = athlete_noc_latlng_pd[athlete_noc_latlng_pd.Medal != 0]
     # save athlete_noc_latlng_pd to athlete_noc.csv  
     athlete_noc_latlng_pd.to_csv('../Project2/data/athlete_noc.csv')
     # reset index for athlete_noc_latlng_pd
     athlete_noc_latlng_pd = athlete_noc_latlng_pd.reset_index()
+    # convert dataframe to string to fix pymongo upload numpy int64 issue
+    athlete_noc_latlng_pd = athlete_noc_latlng_pd.astype(str)
     # define a list for holding dictionary data
     olympics_list = []
     # define a dictionary placeholder for saved variables
@@ -53,4 +57,9 @@ def olympic_crud():
         # reset dictionary placeholder for next entry
         olympics_dict = {}
     # return populated list to caller
-    return olympics_list
+    #return olympics_list
+    olympics_dict_all = {}
+    olympics_dict_all["all_data"] = olympics_list
+    return olympics_dict_all
+    #  abc_dict = {"a": 1}
+    #  return abc_dict

@@ -14,14 +14,14 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/crud")
+@app.route("/olympic_crud")
 def olympic_crud_mongo():
     olympic = mongo.db.olympic
     olympic_dict = crud_file.olympic_crud()
 
     olympic.update({}, olympic_dict, upsert=True)
     return redirect("/", code=302)
-    return ("/localhost/crud")
+    #return ("/localhost/olympic_crud")
 
 if __name__ == "__main__":
     app.run(debug=True)
