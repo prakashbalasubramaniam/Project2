@@ -19,6 +19,9 @@ COLLECTION_NAME = 'olympic'
 def index():
     return render_template("index.html")
 
+@app.route("/worldmap")
+def worldmap_data():
+    return jsonify({"key":"foo"})    
 
 @app.route("/uploadolympicdata")
 def olympic_upload_mongo():
