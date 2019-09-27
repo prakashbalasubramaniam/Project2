@@ -51,10 +51,10 @@ var chosenYAxis = "No. of Medals";
 //var i = 0;
 var age = [];
   // download data from mongodb
-  let line_url = "/downloadolympicdata";
+  let line_url = "/downloadlinechartdata";
   d3.json(line_url).then(function(response) {
     // output data to console
-    //console.log(response); 
+    console.log(response[0].summer_female_medal); 
       //parse data
   
     // response.forEach(function(data) {
@@ -64,13 +64,13 @@ var age = [];
     //   console.log(+data.all_data.year);
     //   console.log(i);
     //   //i++;
-    for (i = 0; i < response[0].all_data.length; i++) {
-      response[0].all_data[i].year = +response[0].all_data[i].year; 
+    // for (i = 0; i < response[0].all_data.length; i++) {
+    //   response[0].all_data[i].year = +response[0].all_data[i].year; 
       //console.log(response[0].all_data[i].year);
       //console.log(i);
-    }
+    //}
 
-    console.log(response[0].all_data)
+    //console.log(response[0].all_data)
   });
   
 
