@@ -1,6 +1,6 @@
 from flask import Flask, render_template, redirect, jsonify, json
 from flask_pymongo import PyMongo
-import crud_file, line_chart_crud_file
+import crud_file, crud_linechart
 from bson import json_util
 from bson.json_util import dumps
 from pymongo import MongoClient
@@ -47,7 +47,7 @@ def olympic_download_mongo():
 @app.route("/uploadlinechartdata")
 def linechart_upload_mongo():
     linechart = mongo.db.linechart
-    linechart_dict = line_chart_crud_file.line_chart_crud()
+    linechart_dict = crud_linechart.populate_linechartdata()
     linechart.update({}, linechart_dict, upsert=True)
     return redirect("/", code=302)
 
