@@ -54,7 +54,7 @@ function buildPlot() {
 
     // fit data into SVG space for Y axis
     var yLinearScale = d3.scaleLinear()
-    .domain([0, d3.max(response[0].all_data, d => d.medal)])
+    .domain(d3.extent(response[0].all_data, d => d.medal))
     .range([height, 0]);
 
     // define bottom and left axes
@@ -79,23 +79,12 @@ function buildPlot() {
     .data(response[0].all_data)
     .enter()
     .append("circle")
-    //zoom exp
-    .join("circle")
-      .attr("cx", d => xTimeScale(d.year))
-      .attr("cy", d => yLinearScale(d.medal))
-      .attr("r", 9)
-      .style("fill", function(d) { return color(cValue_season(d));}) 
-      .attr("opacity", ".5");
+    .attr("cx", d => xTimeScale(d.year))
+    .attr("cy", d => yLinearScale(d.medal))
+    .attr("r", 9)
+    .style("fill", function(d) { return color(cValue_season(d));}) 
+    .attr("opacity", ".5");
     
-    svg.call(d3.zoom()
-      .extent([[0, 0], [width, height]])
-      .scaleExtent([1, 8])
-      .on("zoom", zoomed));
-
-      function zoomed() {
-        chartGroup.attr("transform", d3.event.transform);
-      }
-
     // Create Label group for axes 
     var labelsGroup = chartGroup.append("g")
     .attr("transform", `translate(${width / 3}, ${height + 10})`);
@@ -110,7 +99,7 @@ function buildPlot() {
     // Y axis Label
     chartGroup.append("text")
     .attr("transform", "rotate(-90)")
-    .attr("y", 0 - margin.left-5)
+    .attr("y", 0 - margin.left)
     .attr("x", 0 - (height-50))
     .attr("dy", "1em")
     .classed("axis-text", true)
@@ -153,14 +142,13 @@ function buildPlot() {
     chartGroup.call(toolTip);
 
     // Create "mouseover" event listener to display tooltip
-    circlesGroup
-    .on("mouseover", function(d) {
+    circlesGroup.on("mouseover", function(d) {
       toolTip.show(d, this);
     })
     // Create "mouseout" event listener to hide tooltip
     .on("mouseout", function(d) {
       toolTip.hide(d);
-    });  
+    });    
   });
 };
 
