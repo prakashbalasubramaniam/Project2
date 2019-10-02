@@ -17,15 +17,12 @@ COLLECTION_NAME_LINE = 'linechart'
 COLLECTION_NAME_MAP = 'world_countries'
 COLLECTION_NAME_MEDAL = 'world_map'
 
+# api route to index html
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return render_template("index.html")  
 
-@app.route("/worldmap")
-def worldmap_data():
-    return jsonify({"key":"foo"})    
-
-# App route for olympic data
+# api route to upload cleaned olympics data
 @app.route("/uploadolympicdata")
 def olympic_upload_mongo():
     olympic = mongo.db.olympic
@@ -33,6 +30,7 @@ def olympic_upload_mongo():
     olympic.update({}, olympic_dict, upsert=True)
     return redirect("/", code=302)
 
+# api route to download cleaned olympics data
 @app.route("/downloadolympicdata")
 def olympic_download_mongo():    
     connection = MongoClient(MONGODB_HOST, MONGODB_PORT)
@@ -45,7 +43,7 @@ def olympic_download_mongo():
     connection.close()
     return json_olympic_data
 
-# App route for line chart
+# api route to upload line chart for all years, olympics
 @app.route("/uploadlinechartdata")
 def linechart_upload_mongo():
     linechart = mongo.db.linechart
@@ -53,6 +51,7 @@ def linechart_upload_mongo():
     linechart.update({}, linechart_dict, upsert=True)
     return redirect("/", code=302)
 
+# api route to download line chart for all years, olympics
 @app.route("/downloadlinechartdata")
 def linechart_download_mongo():    
     connection = MongoClient(MONGODB_HOST, MONGODB_PORT)
@@ -65,6 +64,7 @@ def linechart_download_mongo():
     connection.close()
     return json_linechart_data
 
+# api route to download geojson data
 @app.route("/downloadmapdata")
 def mapchart_download_mongo():    
     connection = MongoClient(MONGODB_HOST, MONGODB_PORT)
@@ -73,12 +73,11 @@ def mapchart_download_mongo():
     json_mapchart_data = []    
     for i in mapchart_info:
          json_mapchart_data.append(i)
-        # print(row["features"][0])
-        # print("\n")
     json_mapchart_data = json.dumps(json_mapchart_data, default=json_util.default)
     connection.close()
     return json_mapchart_data
 
+# api route to download medal data by country
 @app.route("/downloadmapmedaldata")
 def mapmedalchart_download_mongo():    
     connection = MongoClient(MONGODB_HOST, MONGODB_PORT)
@@ -87,13 +86,9 @@ def mapmedalchart_download_mongo():
     json_mapmedalchart_data = []    
     for i in mapmedalchart_info:
          json_mapmedalchart_data.append(i)
-        # print(row["features"][0])
-        # print("\n")
     json_mapmedalchart_data = json.dumps(json_mapmedalchart_data, default=json_util.default)
     connection.close()
     return json_mapmedalchart_data
 
 if __name__ == "__main__":
-    # app.jinja_env.auto_reload = True
-    # app.config['TEMPLATES_AUTO_RELOAD'] = True
     app.run(debug=True)

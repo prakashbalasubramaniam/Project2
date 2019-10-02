@@ -1,5 +1,3 @@
-console.log('logic.js')
-
 function buildPlot() {
 
   // SVG size
@@ -164,4 +162,5 @@ function buildPlot() {
   });
 };
 
+// call function above to build chart
 buildPlot();
