@@ -3,8 +3,8 @@ console.log('logic.js')
 function buildPlot() {
 
   // SVG size
-  var svgWidth = 1200;
-  var svgHeight = 500;
+  var svg_lineWidth = 1200;
+  var svg_lineHeight = 500;
   
   // margins for SVG
   var margin = {
@@ -15,15 +15,15 @@ function buildPlot() {
   };
   
   // final SVG size after borders
-  var width = svgWidth - margin.left - margin.right;
-  var height = svgHeight - margin.top - margin.bottom;
+  var width = svg_lineWidth - margin.left - margin.right;
+  var height = svg_lineHeight - margin.top - margin.bottom;
 
   // set SVG size
   var svg = d3
   .select("#line")
   .append("svg")
-  .attr("width", svgWidth)
-  .attr("height", svgHeight);
+  .attr("width", svg_lineWidth)
+  .attr("height", svg_lineHeight);
 
   // define chart space variable
   var chartGroup = svg.append("g")

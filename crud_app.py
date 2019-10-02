@@ -14,6 +14,8 @@ MONGODB_PORT = 27017
 DBS_NAME = 'olympic_info_db'
 COLLECTION_NAME = 'olympic'
 COLLECTION_NAME_LINE = 'linechart'
+COLLECTION_NAME_MAP = 'world_countries'
+COLLECTION_NAME_MEDAL = 'world_map'
 
 @app.route("/")
 def index():
@@ -62,6 +64,34 @@ def linechart_download_mongo():
     json_linechart_data = json.dumps(json_linechart_data, default=json_util.default)
     connection.close()
     return json_linechart_data
+
+@app.route("/downloadmapdata")
+def mapchart_download_mongo():    
+    connection = MongoClient(MONGODB_HOST, MONGODB_PORT)
+    collection = connection[DBS_NAME][COLLECTION_NAME_MAP]
+    mapchart_info = collection.find()
+    json_mapchart_data = []    
+    for i in mapchart_info:
+         json_mapchart_data.append(i)
+        # print(row["features"][0])
+        # print("\n")
+    json_mapchart_data = json.dumps(json_mapchart_data, default=json_util.default)
+    connection.close()
+    return json_mapchart_data
+
+@app.route("/downloadmapmedaldata")
+def mapmedalchart_download_mongo():    
+    connection = MongoClient(MONGODB_HOST, MONGODB_PORT)
+    collection = connection[DBS_NAME][COLLECTION_NAME_MEDAL]
+    mapmedalchart_info = collection.find()
+    json_mapmedalchart_data = []    
+    for i in mapmedalchart_info:
+         json_mapmedalchart_data.append(i)
+        # print(row["features"][0])
+        # print("\n")
+    json_mapmedalchart_data = json.dumps(json_mapmedalchart_data, default=json_util.default)
+    connection.close()
+    return json_mapmedalchart_data
 
 if __name__ == "__main__":
     # app.jinja_env.auto_reload = True
