@@ -3,16 +3,16 @@ var format = d3.format(",");
 // Set tooltips
 var tip = d3.tip()
             .attr('class', 'd3-tip')
-            .offset([-10, 0])
+            .offset([80, -60])
             .html(function(d) {
               return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>Medal Wins: </strong><span class='details'>" + format(d.medal_count) +"</span>";
             })
 
 var margin = {
-                top: 0, right: 0, bottom: 0, left: 0
+                top: 20, right: 40, bottom: 60, left: 50
              },
-             width = 1600 - margin.left - margin.right,
-             height = 800 - margin.top - margin.bottom;
+             width = 1200 - margin.left - margin.right,
+             height = 500 - margin.top - margin.bottom;
 
 var color = d3.scaleThreshold()
     .domain([600,1200,1800,2400,3000,3600,4200,4800,5400])
@@ -67,18 +67,24 @@ Promise.all(promises).then((output) => {
 // medal variable => mapviz.tsv
 function ready(data, medal) {
   var medalById = {};
-  medal.forEach(
+  console.log(medalById)
+  console.log(medal)
+  medal[0].medal.forEach(
     (d)=> { 
-      medalById[d.id] = +d.medal_count; 
+       medalById[d.id] = +d.medal_count;
+      //medalById[d.id] = d.medal_count; 
+      console.log(medalById)
     }
   );
-  console.log('debug')
-  console.log(data[0].features)
+  
   // Added medal count info to the data object. 
   data[0].features.forEach(
     function(d) { 
       d.medal_count = medalById[d.id]
     });
+
+    console.log('debug')
+    console.log(medal[0][0])
 
   // Adding the country drawings
   svg.append("g")
