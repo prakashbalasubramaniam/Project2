@@ -20,7 +20,22 @@ COLLECTION_NAME_MEDAL = 'world_map'
 # api route to index html
 @app.route("/")
 def index():
-    return render_template("index.html")  
+    return render_template("index.html")
+
+# api route to global medal html
+@app.route("/global_medal")
+def globalmedal():
+    return render_template("global_medal.html")  
+
+# api route to olympics comparison html
+@app.route("/olympics_comparison")
+def olympicscomparison():
+    return render_template("olympics_comparison.html")  
+
+# api route to top olympians html
+@app.route("/top_olympians")
+def topolympians():
+    return render_template("top_olympians.html")    
 
 # api route to upload cleaned olympics data
 @app.route("/uploadolympicdata")
