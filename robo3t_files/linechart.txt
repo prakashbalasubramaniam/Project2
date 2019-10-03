@@ -1,0 +1,985 @@
+{
+    "_id" : ObjectId("5d91653ea9df20de78ef3f5e"),
+    "all_data" : [ 
+        {
+            "year" : "1896",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "-1",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1900",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "13",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1904",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "10",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1906",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "6",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1908",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "16",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1912",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "30",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1920",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "44",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1924",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "46",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1928",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "97",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1932",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "62",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1936",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "88",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1948",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "101",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1952",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "140",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1956",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "144",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1960",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "156",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1964",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "200",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1968",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "215",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1972",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "250",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1976",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "389",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1980",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "434",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1984",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "494",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1988",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "554",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1992",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "592",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1994",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "-1",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1996",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "764",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1998",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "-1",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "2000",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "880",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "2002",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "-1",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "2004",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "898",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "2006",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "-1",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "2008",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "932",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "2010",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "-1",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "2012",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "918",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "2014",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "-1",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "2016",
+            "sex" : "F",
+            "season" : "Summer",
+            "medal" : "969",
+            "season_sex" : "Summer_Female"
+        }, 
+        {
+            "year" : "1896",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1900",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1904",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1906",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1908",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1912",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1920",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1924",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "6",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1928",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "6",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1932",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "6",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1936",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "9",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1948",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "15",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1952",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "18",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1956",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "27",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1960",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "39",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1964",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "46",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1968",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "46",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1972",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "45",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1976",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "51",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1980",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "51",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1984",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "54",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1988",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "63",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1992",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "99",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1994",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "108",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1996",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1998",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "189",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "2000",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "2002",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "208",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "2004",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "2006",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "231",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "2008",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "2010",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "229",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "2012",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "2014",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "265",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "2016",
+            "sex" : "F",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Female"
+        }, 
+        {
+            "year" : "1896",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "143",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1900",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "591",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1904",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "476",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1906",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "452",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1908",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "815",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1912",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "911",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1920",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "1264",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1924",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "786",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1928",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "637",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1932",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "585",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1936",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "829",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1948",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "751",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1952",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "757",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1956",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "749",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1960",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "755",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1964",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "829",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1968",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "842",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1972",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "965",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1976",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "931",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1980",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "950",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1984",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "982",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1988",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "1028",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1992",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "1120",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1994",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "-1",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1996",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "1078",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1998",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "-1",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "2000",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "1124",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "2002",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "-1",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "2004",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "1103",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "2006",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "-1",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "2008",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "1116",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "2010",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "-1",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "2012",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "1023",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "2014",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "-1",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "2016",
+            "sex" : "M",
+            "season" : "Summer",
+            "medal" : "1054",
+            "season_sex" : "Summer_Male"
+        }, 
+        {
+            "year" : "1896",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1900",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1904",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1906",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1908",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1912",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1920",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1924",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "124",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1928",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "83",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1932",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "86",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1936",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "99",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1948",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "120",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1952",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "118",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1956",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "123",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1960",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "108",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1964",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "140",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1968",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "153",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1972",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "154",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1976",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "160",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1980",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "167",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1984",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "168",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1988",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "200",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1992",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "219",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1994",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "223",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1996",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "1998",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "251",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "2000",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "2002",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "270",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "2004",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "2006",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "295",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "2008",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "2010",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "291",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "2012",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "2014",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "332",
+            "season_sex" : "Winter_Male"
+        }, 
+        {
+            "year" : "2016",
+            "sex" : "M",
+            "season" : "Winter",
+            "medal" : "-1",
+            "season_sex" : "Winter_Male"
+        }
+    ]
+}
