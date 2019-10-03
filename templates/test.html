@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head>  
+ <meta charset="utf-8">
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.min.js"></script>
+<script src ="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+        <div class="row">
+                <div class="col-xs-12  col-md-5">
+                  <div id="bar">
+                      <div class="chart-container" style="position: relative; height:40vh; width:80vw">
+                      <canvas id="myChart"></canvas>
+                      <progress id="animationProgress" max="1" value="0" style="width: 100%"></progress>
+                      <script>
+                        var progress = document.getElementById('animationProgress');
+                        var ctx = document.getElementById('myChart');
+                        var myChart = new Chart(ctx, {
+                            type: 'bar',
+                            data: {
+                                labels: ['Michael Phelps', 'Larisa Latynina', 'Marit Bjorgen', 'Nikolai Andrianov', '	Ole Einar Bjorndalen', 'Boris Shakhlin','Takashi Ono','	Edoardo Mangiarotti','Ryan Lochte','Natalie Coughlin'],
+                                datasets: [{
+                                    label: 'Most Succseful Olympians',
+                                    data: [28,18,15,15,13,13,13,13,12,12],
+                                    backgroundColor: [
+                                        'rgb(212,175,55)',
+                                        'rgb(192,192,192)',
+                                        'rgb(205,127,50)',
+                                        'rgb(255, 99, 132, 0.2)',
+                                        'rgb(54, 162, 235, 0.2)',
+                                        'rgb(255, 206, 86, 0.2)',
+                                        'rgb(75, 192, 192, 0.2)',
+                                        'rgb(153, 102, 255, 0.2)',
+                                        'rgb(255, 159, 64, 0.2)',
+                                        'rgb(128,128,128)',
+                                    ],
+                                    borderColor: [
+                                        'rgb(212,175,55)',
+                                        'rgb(192,192,192)',
+                                        'rgb(205127,50)',
+                                        'rgb(255, 99, 132, 1)',
+                                        'rgb(54, 162, 235, 1)',
+                                        'rgb(255, 206, 86, 1)',
+                                        'rgb(75, 192, 192, 1)',
+                                        'rgb(153, 102, 255, 1)',
+                                        'rgb(255, 159, 64, 1)',
+                                        'rgb(128,128,128)',
+                                    ],
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: {
+                              animation: {
+                                duration: 4000,
+                                onChart: function(animation) {
+                                  progress.value = animation.animationObject.currentStep / animation.animationObject.numSteps;
+                              },
+                              },
+                              onComplete: function() {
+						                window.setTimeout(function() {
+							              progress.value = 0;
+						                }, 4000);
+					                    },
+                                scales: {
+                                    yAxes: [{
+                                        ticks: {
+                                            beginAtZero: true
+                                        }
+                                    }]
+                                }
+                            }
+                        });
+                        </script>
+                       </div> 
+                  </div>
+                </div>
+<!-- <script src="lots.js"></script> -->
+<!-- <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script> -->
+</body>
+</html>
